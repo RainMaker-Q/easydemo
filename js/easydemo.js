@@ -7,14 +7,9 @@ function dispalyUser() {
 
 
 
-setTimeout(function() {
-	//var showdate = document.getElementById("date");
+setInterval(function() {
+	
 	var today = new Date();
 	document.getElementById("date").innerText = today.toLocaleString();
-	// var year = today.getFullYear();
-	// var month = today.getMonth() + 1;
-	// var day = today.getDate();
-	// var hour = today.getHours();
-	// //document.getElementById("pid").innerText
-	// document.getElementById("date").innerText = year+"年"+month+"月"+day+"日" 
-}, 1000); 
+
+}, 500); 
