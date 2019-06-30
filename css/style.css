@@ -1,4 +1,5 @@
 
+
 p{font-size:28px;}
 h3 {color: red; }
 
@@ -19,17 +20,19 @@ a:active {color: #0000FF}	/* 选定的链接 */
 
 /*设置背景*/
 .content-bg { 
+	margin: 400px auto;
 	background: url(../img/bgpic4.jpg) no-repeat;
 	background-size: cover;
-   	width: 800px;
-    height: 1100px;
+   	width: 900px;
+    height: 1250px;
     position: relative;
 }
 
 /*设置内容*/
 .content {
+	
 	padding-left: 120px;
-	padding-top: 100px;
+	padding-top: 120px;
 	padding-right: 100px
 }
 	
