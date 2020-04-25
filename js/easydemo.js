@@ -12,13 +12,13 @@ var clickme = function() {
 
 //显示用户喜好的函数
 var show = function() {
-	var name = document.myform.name.value ;
+	var name = document.myform.name.value;
 	alert("姓名：" + name) ;
 	var sex ;	// 表示性别
 	if(document.myform.sex[0].checked) {
-		sex = document.myform.sex[0].value ;
+		sex = document.myform.sex[0].value;
 	} else {
-		sex = document.myform.sex[1].value ;
+		sex = document.myform.sex[1].value;
 	}
 	alert("性别：" + sex) ;
 	var inst = "" ;
@@ -46,8 +46,6 @@ var delFun = function() {
 
 //显示日期的函数
 setInterval(function() {
-	
 	var today = new Date();
 	document.getElementById("date").innerText = today.toLocaleString();
-
 }, 500); 

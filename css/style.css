@@ -1,21 +1,61 @@
 
 
-p{font-size:28px;}
-h3 {color: red; }
+/*设置p元素的边框*/
+p {
+	font-size:28px;
+	border:2px solid red;  /* 使用border属性，给所有p元素增加边框*/
+	border-radius: 5px;			/* 给方框加圆角 */
+}
+h3 {
+	color: red; 
+}
 
-ol li {font-family: '黑体'}  /* 使用后代选择器，即选择ol元素的li后代，改变每一项的字体*/
+/* 使用后代选择器，即选择ol元素的li后代，改变每一项的字体*/
+ol li {	
+	font-family: '黑体'
+}
 
-.introduce { font-family: '宋体'; color: blue;}  /*使用类选择器改变 introduce类的 字体和颜色*/
+/*使用类选择器改变 introduce类的 字体和颜色*/
+.introduce {
+	font-family: '宋体';
+	color: blue;
+}
 
-#summary {color: red}  /* 使用id选择器改变总结的颜色  */
 
-#learn_method {color: red}
-.learn {color:blue;}  /* 这里html中的元素中，类选择器设置颜色为蓝色，id选择器设置颜色为红色，最终显示红色，因为id选择器优先级高*/
+/* 使用id选择器改变总结的颜色  */
+#summary {
+	color: red
+}
 
-a:link {color: #FF0000}		/* 未访问的链接 */
-a:visited {color: #00FF00}	/* 已访问的链接 */
-a:hover {color: #FF00FF}	/* 鼠标移动到链接上 */
-a:active {color: #0000FF}	/* 选定的链接 */
+#learn_method {
+	color: red
+}
+
+
+/* 这里html中的元素中，类选择器设置颜色为蓝色，id选择器设置颜色为红色，最终显示红色，因为id选择器优先级高*/
+.learn {
+	color:blue;
+}
+
+/* 未访问的链接 */
+a:link {
+	color: #FF0000
+}
+
+/* 已访问的链接 */
+a:visited {
+	color: #00FF00
+}
+
+/* 鼠标移动到链接上 */
+a:hover {
+	color: #FF00FF
+}
+
+/* 选定的链接 */
+a:active {
+	color: #0000FF
+}
 
 
 /*设置背景*/
@@ -23,20 +63,17 @@ a:active {color: #0000FF}	/* 选定的链接 */
 	margin: 400px auto;
 	background: url(../img/bgpic4.jpg) no-repeat;
 	background-size: cover;
-   	width: 900px;
-    height: 1250px;
-    position: relative;
+  width: 1000px;
+  height: 1400px;
+	position: relative;
+	border-radius: 15px;
 }
 
 /*设置内容*/
 .content {
-	
-	padding-left: 120px;
-	padding-top: 120px;
+	padding-left: 140px;
+	padding-top: 140px;
 	padding-right: 100px
 }
 	
-/*设置p元素的边框*/
-p {
-  border:2px solid red;  /* 使用border属性，给所有p元素增加边框*/
-}
+
