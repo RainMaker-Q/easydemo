@@ -2,9 +2,14 @@
 
 /*设置p元素的边框*/
 p {
-	font-size:28px;
+	font-size:24px;
 	border:2px solid red;  /* 使用border属性，给所有p元素增加边框*/
 	border-radius: 5px;			/* 给方框加圆角 */
+}
+/*伪类选择器，使首字母变颜色*/
+p::first-letter {
+	color: black;
+	font-size: xx-large;
 }
 h3 {
 	color: red; 
@@ -59,7 +64,7 @@ a:active {
 
 
 /*设置背景*/
-.content-bg { 
+.content-bg {
 	margin: 400px auto;
 	background: url(../img/bgpic4.jpg) no-repeat;
 	background-size: cover;

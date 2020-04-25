@@ -20,27 +20,27 @@ var show = function() {
 	} else {
 		sex = document.myform.sex[1].value;
 	}
-	alert("性别：" + sex) ;
+	alert("性别：" + sex);
 	var inst = "" ;
 	for(i=0 ; i<document.myform.inst.length; i++){
 		if(document.myform.inst[i].checked){
-			inst += document.myform.inst[i].value + "、" ;
+			inst += document.myform.inst[i].value + "、";
 		}
 	}
-	alert("兴趣：" + inst) ;
+	alert("兴趣：" + inst);
 }
 
 //显示变化的函数
 var showSelect = function(val) {
-	document.myform1.result.value = val ;
+	document.myform1.result.value = val;
 }
 
 //显示window的confirm的函数
 var delFun = function() {
 	if(window.confirm("确认删除？")) {
-		alert("您选择的“是”！") ;
+		alert("您选择的“是”！");
 	} else {
-		alert("您选择的“否”！") ;
+		alert("您选择的“否”！");
 	}
 }
 
